@@ -1,0 +1,22 @@
+p
+{
+    background-color: Pink;
+    color: black;
+    font-family: arial;
+    font-size: 24;
+}
+body
+{
+    background-color: Pink;
+}
+table
+{
+  background-color: yellow;
+}
+td
+{
+  border: 1px solid pink;
+  font-size: 24pt;
+  color: orangered;
+  text-shadow:0px 0 purple;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+        <head>
+                <title> Exercise Three </title>
+                <script type="text/javascript" src="formChecker.js"></script>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <meta charset="utf-8"/>
+
+        </head>
+
+        <body>
+           <form action="customerBackend.php" onsubmit="return validate()" method="post">
+                 Username: <input type="text" name ="username" id="username"><br>
+                 Password: <input type="text" name ="password" id="password"><br>
+
+                 <br>Enter an quantity for the items shown bellow:<br>
+                 Earphones for $20.00 <input type="number" name ="earphones" id="earphones" ><br>
+                 Pencil for $2.00 <input type="number" name ="pencil" id="pencil" ><br>
+                 Notebook for $3.00 <input type="number" name ="notebook" id="notebook" ><br>
+
+                 <br>Select shipping method:<br>
+                 <input type="radio" id="shipping1" name ="shipping" value="Free 7 day">Free 7 day<br>
+                 <input type="radio" id="shipping2" name ="shipping" value="$50.00 over night" > $50.00 over night<br>
+                 <input type="radio" id="shipping3" name ="shipping" value="$5.00 three day" > $5.00 three day<br>
+
+               <br><input type="submit" value="Submit">
+               <input type="reset" value="Reset">
+            </form>
+        </body>
+</html>
